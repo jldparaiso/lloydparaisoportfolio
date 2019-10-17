@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+.navbar{
+  transition:500ms ease;
+  background:rgba(0,0,0,1);
+}
+
+.navbar ul > li > a{
+  color: #fff;
+}
+
+.navbar-collapse{
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.navbar.scrolled{
+  background:#fff;
+}
+
+
+.navbar.scrolled h1{
+  color: #2F4F4F;
+}
+
+.navbar.scrolled ul > li > a{
+  color: #2F4F4F;
+}
+
+.navbar.scrolled #brand-span, i{
+  color: #FF8C00;
+}
+
+#brand-span{
+  color: #2F4F4F;
+}
+
+.navbar-brand h1{
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: -2px;
+}
+
+#hero{
+	background-image: url('../images/hero-bg3.jpg');
+	min-height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.jumbotron{
+	height: 100vh;
+}
+
+#about,#myworks{
+	height: auto;
+}
+
+#hero-btn:hover{
+	background: #FF8C00;
+}
+
+.logos{
+	max-width: 120px;
+	max-height: 120px;
+}
+
+#workimg{
+	max-height: 400px;
+	max-width: 100%;
+}
+
+#workimg{
+	max-height: 150px;
+	max-width: 100%;
+}
+
+
+  @media (max-width: 599px) {
+  	.logos{
+	max-width: 90px;
+	max-height: 90px;
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
